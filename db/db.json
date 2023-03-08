@@ -1,5 +1,50 @@
 {
-  "buckets": [],
-  "cards": [],
-  "history": []
+  "buckets": [
+    {
+      "id": 1,
+      "name": "Entertainment Videos",
+      "cards": [
+        {
+          "id": 1,
+          "name": "Card 1",
+          "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        },
+        {
+          "id": 2,
+          "name": "Card 2",
+          "url": "https://www.youtube.com/watch?v=5y_KJAg8bHI"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Education Videos",
+      "cards": [
+        {
+          "id": 3,
+          "name": "Card 3",
+          "url": "https://www.youtube.com/watch?v=6Dh-RL__uN4"
+        },
+        {
+          "id": 4,
+          "name": "Card 4",
+          "url": "https://www.youtube.com/watch?v=5JtVSYZzak8"
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "id": 1,
+      "name": "Card 1",
+      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "playedAt": "2023-03-08T10:12:36.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Card 2",
+      "url": "https://www.youtube.com/watch?v=5y_KJAg8bHI",
+      "playedAt": "2023-03-08T10:15:12.000Z"
+    }
+  ]
 }

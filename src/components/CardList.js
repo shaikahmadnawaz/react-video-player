@@ -1,14 +1,16 @@
 import React from "react";
+import { List } from "antd";
 import Card from "./Card";
 
-const CardList = ({ cards }) => {
+const CardsList = ({ cards, onDeleteCard, onMoveCard }) => {
   return (
-    <div>
-      {cards.map((card) => (
-        <Card key={card.id} card={card} />
-      ))}
-    </div>
+    <List
+      dataSource={cards}
+      renderItem={(card) => (
+        <Card card={card} onDeleteCard={onDeleteCard} onMoveCard={onMoveCard} />
+      )}
+    />
   );
 };
 
-export default CardList;
+export default CardsList;
